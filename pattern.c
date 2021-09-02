@@ -4,8 +4,10 @@ int main()
 {
     int lines, line_count, count, space_count_line_number;
     char letter;
-    lines = 7;
+    // lines = 7;
     space_count_line_number = 0;
+    printf("Enter the number of lines: ");
+    scanf("%d", &lines);
     for (line_count = lines - 1; line_count >= 0; line_count--)
     {
         count = first + line_count;
